@@ -1,0 +1,119 @@
+body{
+    background-color: #0f0f0f;
+    font-family:'Medula One', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  ::selection {
+    color: #000;
+    background: #fff;
+  }
+  nav {
+    position: absolute;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+    margin-top: 1%;
+  }
+  nav .menu {
+    max-width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+  }
+  .menu ul {
+    display: inline-flex;
+  }
+  .menu ul li {
+    list-style: none;
+    margin-left: 7px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover {
+    background: #fff;
+    color: black;
+  }
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin:0px auto; 
+    padding-top: 150px;
+    border-radius: 8px;
+  }
+  
+  .entry {
+    flex-basis: calc(50% - 10px); 
+    flex-grow: 1; 
+    margin: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: #28292D;
+    font-size: 20px;
+    border-radius: 8px;
+    max-height: 160px;
+    line-height: 30px;
+  }
+  
+.votebutton{
+    position: relative;
+    top: 40%;
+    padding: 5px;
+    float: right;
+    right: 50%;
+    align-items: center;
+}
+.container1 .entry button{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-family:'Medula One', sans-serif;                                          
+    font-size: 25px;
+    border-radius: 4px;
+}
+.container1 .entry button:hover{    
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    color: aqua;
+
+}
+.imagediv {
+    margin-left: auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+    top: -65%;
+  }
+  .symbol {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -38%;
+
+    
+  }

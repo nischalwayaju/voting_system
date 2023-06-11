@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Medula One', sans-serif; 
+  }
+  ::selection {
+    color: #000;
+    background: #fff;
+  }
+  nav {
+    position: fixed;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+    margin-top: 1%;
+  }
+  nav .menu {
+    max-width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+  }
+  .menu ul {
+    display: inline-flex;
+  }
+  .menu ul li {
+    list-style: none;
+    margin-left: 7px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover {
+    background: #fff;
+    color: black;
+  }
+  .img {
+    background: url("images/background.jpg") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+.mainbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+.box{
+    margin: 3% 5%;  
+    position: relative;
+    width: 100%;
+    height: 520px;
+    background: #28292D;
+    border-radius: 8px;
+    overflow: auto;
+
+  }
+h2{
+    color: #45f3ff;
+    text-align: center;
+    font-size: 35px;
+}
+p{
+    font-size: 25px;
+    margin: 20px;
+    color: whitesmoke;
+}
